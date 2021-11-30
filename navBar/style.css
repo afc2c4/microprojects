@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background: url(593825.jpeg);
+    background-size: cover;
+}
+
+.full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.full-width.search {
+    position: relative;
+    background: #000;
+}
+
+.search-form {
+    position: relative;
+    padding-left: 20px;
+}
+
+.search-form:before {
+    content: '\f002';
+    position: absolute;
+    color: #fff;
+    font-family: fontAwesome;
+    top: 7px;
+    left: 0;
+}
+
+.search-form ::placeholder {
+    color: #fff;
+}
+
+.search-form input {
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    cursor: pointer;
+}
+
+.full-width.navbar {
+    background: rgba(0, 0, 0, .5);
+    padding: 0 100px;
+}
+
+.full-width.navbar .brand {
+    float: left;
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.full-width.navbar ul {
+    flex: right;
+    margin: 0;
+    display: flex;
+}
+
+.full-width.navbar ul li {
+    list-style: none;
+}
+
+.full-width.navbar ul li a {
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.full-width.navbar ul li a.active,
+.full-width.navbar ul li a:hover {
+    background: #00bcd4;
+}
+
+.full-width.navbar ul li a.search-icon {
+    background: #f00;
+}
